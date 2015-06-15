@@ -1,0 +1,75 @@
+{
+  "data": [
+    {
+      "name": "Table1",
+      "type": "Table",
+      "columns": [
+        {
+          "name": "Column 1",
+          "datatype": "Varchar",
+          "length": 20
+        },
+        {
+          "name": "Column 2",
+          "datatype": "Varchar",
+          "length": 10
+        },
+        {
+          "name": "Column 3",
+          "datatype": "int"
+        }
+      ]
+    },
+    {
+      "name": "Table2",
+      "type": "Table",
+      "columns": [
+        {
+          "name": "Column 1",
+          "datatype": "Varchar",
+          "length": 20
+        },
+        {
+          "name": "Column 2",
+          "datatype": "Varchar",
+          "length": 10
+        }
+      ]
+    },
+    {
+      "name": "Employee",
+      "type": "View",
+      "columns": [
+        {
+          "name": "id",
+          "datatype": "int"
+        },
+        {
+          "name": "name",
+          "datatype": "Varchar",
+          "length": 20
+        },
+        {
+          "name": "address",
+          "datatype": "Varchar",
+          "length": 100
+        }
+      ]
+    },
+    {
+      "name": "Customer",
+      "type": "View",
+      "columns": [
+        {
+          "name": "CustomerId",
+          "datatype": "int"
+        },
+        {
+          "name": "CustomerName",
+          "datatype": "Varchar",
+          "length": 100
+        }
+      ]
+    }
+  ]
+}

@@ -1,18 +1,16 @@
-/**
- * The main application class. An instance of this class is created by app.js when it calls
- * Ext.application(). This is the ideal place to handle application launch and initialization
- * details.
- */
 Ext.define('TestProject.Application', {
     extend: 'Ext.app.Application',
-    
     name: 'TestProject',
 
-    stores: [
-        // TODO: add global / shared stores here
+    views: [
+        'MyGrid',
+        'MyTree'
     ],
-    
+    stores: [
+        'Objects'
+    ],
+
     launch: function () {
-        // TODO - Launch the application
+        Ext.create('TestProject.view.MyGrid');
     }
 });
